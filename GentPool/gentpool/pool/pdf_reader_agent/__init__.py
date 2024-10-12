@@ -1,4 +1,4 @@
-from .pdf_reader import PDFReader  # Import the PDFReader class
+from .pdf_reader import PDFReader  
 
 TOOLS = {
     "pdf_reader": PDFReader,
