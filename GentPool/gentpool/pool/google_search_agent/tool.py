@@ -26,7 +26,6 @@ class GoogleSearch(BaseTool):
         raise NotImplementedError
 
 if __name__ == "__main__":
-    # Example usage of the GoogleSearch tool
     google_search_tool = GoogleSearch()
     search_results = google_search_tool._run("Attention for transformer")
     print(search_results)
